@@ -5,6 +5,11 @@
       "root": ".",
       "framework": "nestjs"
     },
+    "python": {
+      "root": "sdk/python",
+      "framework": "fastapi",
+      "entrypoint": "main:app"
+    },
     "dashboard": {
       "root": "dashboard",
       "framework": "vite"
